@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="adicionaTarefa">
-            <input type="text">
-            <button class="botão" onclick="adiTarefa()">Adicionar</button>
-        </div>
+    <h1>Lista de Tarefas: </h1>
+    <h3>Digite suas tarefas</h3>
+    <div class="container">        
+       <div class="recebeTexto">
+        <input id="texto" type="text" class="texto">
+        <button onclick="adicionar()" class="btn">Adicionar</button>
         
+        <ul id="lista">
+
+        </ul> 
+       </div>
+       
     </div>
 
    <script src="assets/js/script.js"></script> 
