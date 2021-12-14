@@ -2,9 +2,7 @@ function adicionar() {
   let text = document.getElementById('texto').value;
   let list = document.getElementById('lista').innerHTML;
 
-  list += "<input id='caixa' type='checkbox' onclick='checkbox()' class='marca'>  "+ text + "<br>"
-
-  
+  list += "<input id='caixa' type='checkbox' onclick='checkbox()' class='marca'>  "+ text + "<br>"  
   
   if(text == ""){
     alert('Digite sua tarefa!');
